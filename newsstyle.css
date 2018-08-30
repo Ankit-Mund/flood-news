@@ -63,7 +63,7 @@ footer ul{
 }
 .three{
 	display: flex;
-	flex-direction: column;
+	
 }
 #top{
 	display: flex;
@@ -81,7 +81,7 @@ footer ul{
 	border-radius: 5px;
 }
 
-@media(min-width: 400px){
+@media(max-width: 400px){
 	header{
 		display: inline-flex;
 
@@ -96,6 +96,8 @@ footer ul{
 	}
 	.three{
 		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 	.tech, .video,{
 		display: flex;
