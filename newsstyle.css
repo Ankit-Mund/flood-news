@@ -8,10 +8,9 @@ header{
 }
 body{
 	font-family: 'Montserrat', sans-serif;
-	background-color: #e8e9eb;
+	background-color: white;
 	width: 100%;
 	margin: 0px;
-	
 }
 h2{
 	width: 100%;
@@ -63,7 +62,7 @@ footer ul{
 }
 .three{
 	display: flex;
-	
+	background-color: grey;
 }
 #top{
 	display: flex;
@@ -190,4 +189,14 @@ a:hover{
 .topics{
 	display: flex;
 	flex-direction: column;
+}
+#tech{
+	flex:1;
+}
+#video{
+	flex:1;
+	align-self: center;
+}
+#poll{
+	flex:1;
 }
